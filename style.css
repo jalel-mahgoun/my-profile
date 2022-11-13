@@ -1,0 +1,84 @@
+body {
+    background-color: #ffee32;
+}
+h1, h2 {
+    font-family: 'Comic Sans', sans-serif;
+}
+h1 {
+    color: #ffee32;
+    font-size: 35px;
+}
+h2 {
+    color: #ffee32;
+    font-size: 25px;
+}
+p, li, a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #ac6cff;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+@media (max-width: 960px) {  
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+.box {
+    background: #333533;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(87, 112, 255, 0.15);
+    text-align: center;
+}
+#img {
+    border-radius: 50%;
+}
+.list-h {
+    list-style: none; 
+    padding-left: 0px; 
+  }
+  .list-h > li {
+    display: inline; 
+    padding: 0px 20px; 
+  }
+.list-v {
+    list-style: none; 
+    padding-left: 0px; 
+}
+#btn {
+    background-color: #ac6cff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+#btn:hover {
+    background-color: white;
+    color: #5770ff;
+  }
+#ytb {
+    padding: 11px
+}
+.icon {
+    font-size: 75px;
+}
+.icon :hover {
+    color: white ;
+}
